@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Github Website">
+	<test name="Signin">
+		<classes>
+			<class name="module1.Login"></class>
+		</classes>
+	</test>
+	<test name="Signup">
+		<classes>
+			<class name="module1.Signup"></class>
+		</classes>
+	</test>
+	<test name="Create Repository">
+		<classes>
+			<class name="module1.repository"></class>
+		</classes>
+	</test>
+	<test name="Search Repository">
+		<classes>
+			<class name="module1.Search"></class>
+		</classes>
+	</test>
+</suite>
